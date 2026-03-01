@@ -48,7 +48,7 @@ class Employee {
 const company = new Company([emp1, emp2, emp3, mgr1, mgr2, mgr3]);
 
 const newEmp = new Employee("David", "Accounting");
-const newEmp2 = new Manager("Lisa", "Information Systems");
+const newEmp2 = new Employee("Lisa", "Information Systems");
 company.addEmployee(newEmp);
 company.addEmployee(newEmp2);
 
